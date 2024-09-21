@@ -18,8 +18,8 @@
         "resid_pdrop": 0.1,
         "attn_pdrop": 0.1,
         "pretrained_folder": null,
-        "n_kv_head": 6,
-        "rope": false
+        "n_kv_head": 2,
+        "rope": true
     },
     "trainer": {
         "device": "auto",

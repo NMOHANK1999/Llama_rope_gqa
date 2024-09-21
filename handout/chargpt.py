@@ -34,9 +34,9 @@ def get_config():
     #gpt-mini settings
     C.model.n_layer=6
     C.model.n_query_head=6
-    C.model.n_kv_head=6
+    C.model.n_kv_head=2
     C.model.n_embd=192
-    C.model.rope = False # toggle True or False to turn rope on and off respectively
+    C.model.rope = True # toggle True or False to turn rope on and off respectively
 
     # trainer
     C.trainer = Trainer.get_default_config()
